@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "installDep": "npm install && npm install --prefix client",
     "server": "nodemon server/index",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
